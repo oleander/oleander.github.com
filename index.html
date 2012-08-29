@@ -12,6 +12,9 @@
     <script type="text/javascript">
       $(function() {
         $("[rel='tooltip']").tooltip();
+        var date = new Date();
+        var year = date.getFullYear();
+        $(".age").text(year - 1988);
       }); 
     </script>
   </head>
@@ -23,7 +26,7 @@
       <p>
         I like to 
         <a href="http://github.com/oleander">build stuff</a>, 
-        skydive,
+        <a href="http://youtu.be/91F90dqcypQ" rel="tooltip" title="I'm the guy in the red helmet">skydive</a>,
         travel
         and
         <a href="https://rubygems.org/profiles/48444">solve strange problems</a>.
@@ -34,7 +37,7 @@
     </section>
     <section>
       <p>
-        I'm a <a href="http://github.com/oleander" rel="external nofollow" target="_blank">developer</a>, 
+        I'm a <span class="age">24</span> year old <a href="http://github.com/oleander" rel="external nofollow" target="_blank">developer</a>, 
         student and adrenaline junkie from Sweden. I like to <a href="http://oleander.io/projects">make stuff</a>, both software and hardware. Currently, I'm an exchange master student at Utrecht University and owner of a company called Oleander Development AB.
       </p>
       <p>
