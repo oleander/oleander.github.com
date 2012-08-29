@@ -2,8 +2,18 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Linus Oleander</title>
+    <meta content="Personal page for Linus Oleander" name="description">
+    <meta content="Linus Oleander" name="author">
+    <title>Personal page for Linus Oleander</title>
     <link href="application.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $("[rel='tooltip']").tooltip();
+      }); 
+    </script>
   </head>
   <body>
     <header>
@@ -12,27 +22,31 @@
       </h1>
       <p>
         I like to 
-        <a href="http://oleander.io/projects">build stuff</a>, 
-        <a href="http://oleander.io/music">skydive</a>
+        <a href="http://github.com/oleander">build stuff</a>, 
+        skydive,
+        travel
         and
-        <a href="http://oleander.io/music">solve strange problems</a>.
+        <a href="https://rubygems.org/profiles/48444">solve strange problems</a>.
       </p>
     </header>
+    <section class="me">
+      <img rel="tooltip" title="Me in front of reactor 4 @ Chernobyl" src="me.png" alt="Me @ Chernobyl - April 2012">
+    </section>
     <section>
       <p>
         I'm a <a href="http://github.com/oleander" rel="external nofollow" target="_blank">developer</a>, 
-        <a href="http://dribbble.com/oleander" rel="external nofollow" target="_blank">student</a> and adrenaline junkie. I like to <a href="http://oleander.io/projects">make stuff</a>, both software and hardware. Currently, I'm a fulltime student at Chalmers University of Technology in computer science and self employed at Oleander Development AB.
+        student and adrenaline junkie from Sweden. I like to <a href="http://oleander.io/projects">make stuff</a>, both software and hardware. Currently, I'm an exchange master student at Utrecht University and owner of a company called Oleander Development AB.
       </p>
       <p>
-        Take a look at my published open sourced project on Github, follow me on Twitter or send me an email.
+        Take a look at my published open source projects on <a href="http://github.com/oleander">Github</a>, follow me on <a href="https://twitter.com/linusoleander">Twitter</a> or send me an <a rel="tooltip" href="#" title="linus [at] oleander [dot] io">email</a>.
       </p>
-      <p>
-        <strong>Need some highlights?</strong> How about the Radiofy.se project – a digital bridge between over 70 swedish radio stations and Spotify. The Water project – a platform for managing hand-in and reviewing assignments. Git fame – a stat generating tool build ontop of Git.
+      <p class="highlights">
+        <strong>Need some highlights?</strong> How about the <a href="http://radiofy.fm">Radiofy</a> project – a digital bridge between over 70 swedish radio stations and Spotify. The <a href="https://github.com/water">Water</a> project – a platform for managing hand-in and reviewing assignments for universities. <a href="https://github.com/oleander/git-fame-rb">Git fame</a> – a stat generating tool build on top of Git.
       </p>
     </section>
     <footer>
       <p>
-        Copyright © 2012 <a href="/" rel="home">Linus Oleander</a>
+        Yes, indeed | 2012
       </p>
     </footer>
   </body>

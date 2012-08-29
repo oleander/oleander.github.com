@@ -10,6 +10,24 @@ margin:0;
 padding:0;
 }
 
+.me {
+  position:relative; 
+  float: right
+}
+
+.me img {
+  position: relative; 
+  padding: 10px; 
+  background: #E6E6E6; 
+  border-radius: 5px; 
+  top: 5px;
+  height: 230px;
+}
+
+.highlights {
+  padding-top: 40px;
+}
+
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
