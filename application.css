@@ -10,9 +10,17 @@ margin:0;
 padding:0;
 }
 
+.flower {
+  position: fixed; 
+  left: -150px; 
+  top: -110px; 
+  z-index: -100;
+}
+
 .me {
   position:relative; 
-  float: right
+  float: right;
+  padding-left: 5px;
 }
 
 .me img {
