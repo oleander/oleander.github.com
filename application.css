@@ -13,7 +13,7 @@ padding:0;
 .flower {
   position: absolute; 
   left: -150px; 
-  top: -110px; 
+  top: -170px; 
   z-index: -100;
 }
 
@@ -209,7 +209,7 @@ margin:0 auto;
 
 body>header {
 color:#a5a5a5;
-margin:5em auto 4em;
+margin:2em auto 4em;
 }
 
 body>header p {
