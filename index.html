@@ -1,57 +1,301 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta content="Personal page for Linus Oleander" name="description">
-    <meta content="Linus Oleander" name="author">
-    <title>Linus Oleander's personal home page</title>
-    <link href="application.css" media="screen" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <script type="text/javascript" src="bootstrap.min.js"></script>
-    <script type="text/javascript">
-      $(function() {
-        $("[rel='tooltip']").tooltip();
-        var date = new Date();
-        var year = date.getFullYear();
-        $(".age").text(year - 1988);
-      }); 
-    </script>
-  </head>
-  <body>
-    <img class="flower" src="flower.png">
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Linus Oleander's Personal Homepage</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        a.normal {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        header .header-content .header-content-inner p {
+            color: white;
+            background-color: rgba(0,0,0,.6);
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
     <header>
-      <h1>
-        <a href="/">Hi there, I'm Linus</a>
-      </h1>
-      <p>
-        I like to 
-        <a href="http://github.com/oleander">build stuff</a>, 
-        <a href="http://youtu.be/91F90dqcypQ" rel="tooltip" title="I'm the guy in the red helmet">skydive</a>,
-        travel
-        and
-        <a href="https://rubygems.org/profiles/48444">solve strange problems</a>.
-      </p>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Hi there, I'm Linus</h1>
+                <hr>
+                <p>I like to build stuff, dive, compete, travel and solve strange problems</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
     </header>
-    <section class="me">
-      <img rel="tooltip" title="Åstol Aquathlon - 2013" src="me-s.png" alt="Åstol Aquathlon - 2013">
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="text-faded">
+                        I'm a 27 year old developer, student, long distance triathlete and adrenaline junkie from Gothenburg, Sweden.
+                        I'm currently doing master of science in algorithms, logic and languages at Chalmers university. Beside school I'm the CEO of Oleander Development AB, founder of
+                        <a href="http://radiofy.se" class="normal">Radiofy</a> and co-founder of <a class="normal" href="http://hprovet.se">HProvet</a>. Scroll down for more information.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-      <p>
-        I'm a <span class="age">25</span> year old <a href="http://github.com/oleander" rel="external nofollow" target="_blank">developer</a>, 
-        student, long distance triathlete and adrenaline junkie from Sweden. Currently, I'm a master student at Chalmers university and CEO of Oleander Development AB.
-      </p>
-      <p>
-        Want more? Why not take a look at my published open source projects on <a href="http://github.com/oleander">Github</a>, follow me on <a href="https://twitter.com/linusoleander">Twitter</a> or send me an <a rel="tooltip" href="#" title="linus [at] oleander [dot] io">email</a>.
-      </p>
-      <p class="highlights">
-        <strong>Need some highlights?</strong> How about the <a href="http://radiofy.fm">Radiofy</a> project – a digital bridge between ~200 radio stations and Spotify. The <a href="https://github.com/water">Water</a> project – a platform for managing hand-in and reviewing assignments for universities. <a href="https://github.com/oleander/git-fame-rb">Git fame</a> – a stat generating tool build on top of Git or maybe the <a href="http://unihack.herokuapp.com/">Unihack competition</a> me and my team won.
-      </p>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Highlights</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-music wow bounceIn text-primary"></i>
+                        <h3><a href="http://radiofy.se" target="_blank">Radiofy</a></h3>
+                        <p class="text-muted">A digital bridge between ~ 400 radio stations and Spotify</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-book wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3><a href="http://hprovet.se" target="_blank">HProvet</a></h3>
+                        <p class="text-muted">An interactive platform used to studdy for the Swedish SAT</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-git wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3><a href="https://github.com/oleander/git-fame-rb" target="_blank">git fame</a></h3>
+                        <p class="text-muted">A command line tool used to generate stats from a git repository</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-film wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3><a href="https://github.com/oleander/show-time" target="_blank">ShowTime</a></h3>
+                        <p class="text-muted">A torrent desktop client for Trakt.tv with live updates from the web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-      <p>
-        Yes, indeed | 2014
-      </p>
-    </footer>
-  </body>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Want more?</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-github wow bounceIn text-primary"></i>
+                        <h3><a href="http://github.com/oleander" target="_blank">Github</a></h3>
+                        <p class="text-muted">I've published some awesome OSS projects over the years. Have a look!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-twitter wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3><a href="https://twitter.com/linusoleander" target="_blank">Twitter</a></h3>
+                        <p class="text-muted">My live feed updated with the latest news.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3><a href="https://rubygems.org/profiles/48444" target="_blank">Rubygems</a></h3>
+                        <p class="text-muted">Take a look at my published ruby gems downloaded over 250k times.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-stack-overflow wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3><a href="http://stackoverflow.com/users/560073/oleander" target="_blank">Stack Overflow</a></h3>
+                        <p class="text-muted">I help if I can. Watch my contributions on Stack Overflow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/1.png" class="img-responsive" alt="Linus Oleander">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Celtman
+                                </div>
+                                <div class="project-name">
+                                    2015
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/2.png" class="img-responsive" alt="Öloppet">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Öloppet
+                                </div>
+                                <div class="project-name">
+                                    2015
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/3.png" class="img-responsive" alt="Linus Oleander">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Rockman
+                                </div>
+                                <div class="project-name">
+                                    2015
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/4.png" class="img-responsive" alt="Linus Oleander">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Rockman
+                                </div>
+                                <div class="project-name">
+                                    2015
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/5.png" class="img-responsive" alt="Linus Oleander, Anna Oleander">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Rockman
+                                </div>
+                                <div class="project-name">
+                                    2015
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/6.png" class="img-responsive" alt="Linus Oleander">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Norseman
+                                </div>
+                                <div class="project-name">
+                                    2014
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <a class="twitter-timeline" href="https://twitter.com/linusoleander" data-widget-id="626536955677929472">Tweets av @linusoleander</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>You can call me or send me an email</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>076-0 30 60 05</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:linus [a] oleander [dot] nu">linus [a] oleander [dot] nu</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+</body>
 </html>
