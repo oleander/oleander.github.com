@@ -1,0 +1,25 @@
+a.normal {
+    color: inherit;
+    text-decoration: underline;
+}
+
+body {
+    zoom: 100%;
+}
+
+header .header-content .header-content-inner p {
+    color: white;
+    background-color: rgba(0,0,0,.6);
+}
+
+#avatar {
+    background-image: url("/img/me.jpg");
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
