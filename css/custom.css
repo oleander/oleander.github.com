@@ -31,3 +31,33 @@ header .header-content .header-content-inner {
 header .header-content .header-content-inner hr {
     margin: 5px;
 }
+
+h3.stat {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h3.stat a {
+    color: white;
+}
+
+.bg-primary .service-box .fa {
+    color: white;
+}
+
+p.upstream,
+p.pamir-note {
+    margin-top: 30px;
+}
+
+p.contact-label {
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+@media (max-width: 767px) {
+    h3.stat {
+        font-size: 36px;
+    }
+}
