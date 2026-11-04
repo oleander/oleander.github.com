@@ -31,6 +31,7 @@ header .header-content .header-content-inner {
 header .header-content .header-content-inner hr {
     margin: 5px;
 }
+
 h3.stat {
     font-size: 44px;
     font-weight: 700;
@@ -41,19 +42,11 @@ h3.stat a {
     color: white;
 }
 
-.bg-dark .service-box p,
-.bg-primary .service-box p {
-    margin-bottom: 0;
-}
-
 .bg-primary .service-box .fa {
     color: white;
 }
 
-p.upstream {
-    margin-top: 30px;
-}
-
+p.upstream,
 p.contact-label {
     font-size: 13px;
     margin-top: -10px;
@@ -63,8 +56,4 @@ p.contact-label {
     h3.stat {
         font-size: 36px;
     }
-}
-
-p.pamir-note {
-    margin-top: 30px;
 }
